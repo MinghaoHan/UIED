@@ -1,4 +1,4 @@
-# UIED - UI element detection, detecting UI elements from UI screenshots or drawnings
+# UIED - UI element detection
 
 A web app for the UIED in http://uied.online
 
