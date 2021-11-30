@@ -1,6 +1,6 @@
 # UIED - UI element detection, detecting UI elements from UI screenshots or drawnings
 
-This project is still ongoing and this repo may be updated irregularly, I developed a web app for the UIED in http://uied.online
+A web app for the UIED in http://uied.online
 
 ## Related Publications: 
 [1. UIED: a hybrid tool for GUI element detection](https://dl.acm.org/doi/10.1145/3368089.3417940)
@@ -50,29 +50,6 @@ To test your own image(s):
 * To adjust the parameters lively, using ``run_testing.py`` 
 
 > Note: The best set of parameters vary for different types of GUI image (Mobile App, Web, PC). I highly recommend to first play with the ``run_testing.py`` to pick a good set of parameters for your data.
-   
-## Folder structure
-``cnn/``
-* Used to train classifier for graphic UI elements
-* Set path of the CNN classification model
-
-``config/``
-* Set data paths 
-* Set parameters for graphic elements detection
-
-``data/``
-* Input UI images and output detection results
-
-``detect_compo/``
-* Non-text GUI component detection
-
-``detect_text/``
-* GUI text detection using Google OCR
-
-``detect_merge/``
-* Merge the detection results of non-text and text GUI elements
-
-The major detection algorithms are in ``detect_compo/``, ``detect_text/`` and ``detect_merge/``
 
 ## Demo
 GUI element detection result for web screenshot
